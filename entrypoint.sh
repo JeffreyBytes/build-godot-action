@@ -8,7 +8,7 @@ if [ "$(realpath ~)" = "/root" ]; then
     echo "Home directory and /root are the same. Skipping copy."
 else
     cp -a /root/.local/share/godot/export_templates/. ~/.local/share/godot/export_templates/
-
+fi
 
 if [ "$3" != "" ]
 then
